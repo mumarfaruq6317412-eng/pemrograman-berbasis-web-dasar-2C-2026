@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BzMe Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+</head>
+<body class="font-sans">
+
+<nav class="sticky top-0 z-50 w-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm shadow-sm">
+  <div class="flex justify-between items-center w-full max-w-6xl mx-auto px-8 py-4">
+    
+    <div class="flex items-center space-x-3">
+      <img src="Logo.png" class="w-10 h-10" alt="Logo">
+      <h3 class="text-2xl font-bold text-purple-700 dark:text-purple-300">BzMe</h3>
+    </div>
+
+    <ul class="hidden md:flex space-x-6 text-purple-700 font-bold dark:text-purple-300">
+      <li><a href="#home" class="hover:text-amber-400 transition">Home</a></li>
+      <li><a href="#about" class="hover:text-amber-400 transition">About</a></li>
+      <li><a href="#service" class="hover:text-amber-400 transition">Services</a></li>
+      <li><a href="#contact" class="hover:text-amber-400 transition">Contact</a></li>
+    </ul>
+
+    <div class="space-x-4">
+      <a href="#signup" id="openForm" class="bg-orange-500 text-white px-5 py-2 rounded-lg font-bold hover:bg-orange-600 transition">Sign Up</a>
+      <button id="tombolTema" class="bg-purple-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-purple-800 transition">Dark Mode</button>
+    </div>
+
+  </div>
+</nav>
+
+<section id="home" class="h-screen bg-gray-50 dark:bg-gray-900 flex items-center">
+  <div class="max-w-6xl mx-auto px-8 md:px-12 grid md:grid-cols-2 gap-8 items-center w-full">
+    
+    <div>
+      <h1 class="text-5xl font-semibold mb-4 text-gray-900 dark:text-gray-100 leading-tight">
+        We Create <br> <span class="text-purple-600">Solutions</span> For <br> Your Business
+      </h1>
+      <p class="text-gray-500 font-bold mb-6 text-sm dark:text-gray-300">
+        We provide intelligent technology solutions to <br>
+        optimize efficiency and accelerate the growth of <br>
+        your business operations.
+      </p>
+      <a href="#" class="bg-orange-500 text-white px-7 py-2 font-bold rounded-xl hover:bg-amber-500 inline-block">Get Started</a>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="1.png" class="max-w-[420px] w-full" alt="Solution Image">
+    </div>
+
+  </div>
+</section>
+
+<section id="service" class="px-12 py-28 bg-white dark:bg-gray-800">
+  <h2 class="text-3xl font-bold text-center mb-4 text-gray-900 dark:text-gray-100">We Provide The Best <span class="text-purple-600">Services</span></h2>
+  <p class="text-center text-gray-600 mb-10 dark:text-gray-300">
+    We deliver high-quality technology services specifically designed to enhance your <br>
+    business productivity and scalability in a sustainable way.
+  </p>
+
+  <div class="grid md:grid-cols-4 gap-6">
+  <div class="bg-white dark:bg-gray-700 border border-purple-400 shadow-md shadow-purple-300 rounded-lg p-6 flex flex-col transition-all duration-300 active:scale-95 cursor-pointer">
+    <img src="icon 1.png" alt="SEO Icon" class="bg-[#FFD47E] rounded-full w-12 h-12 mb-4">
+    <h3 class="font-bold mb-2 dark:text-gray-100">Seo/Sem</h3>
+    <p class="text-gray-600 font poppins mb-4 dark:text-gray-300 text-xs text-left">
+      Lorem ipsum dolor sit amet consectetur<br>
+      adipiscing elit. Dolor sit amet consectetur<br>
+      adipiscing elit quisque faucibus.
+    </p>
+    <div class="text-center">
+      <a href="#" class="bg-purple-500 font-semibold text-[#FFD47E] px-4 py-2 rounded hover:bg-amber-600 inline-block">Click Here</a>
+    </div>
+  </div>
+  
+  <div class="bg-white dark:bg-gray-700 border border-purple-400 shadow-md shadow-purple-300 rounded-lg p-6 flex flex-col transition-all duration-300 active:scale-95 cursor-pointer">
+    <img src="icon 1.png" alt="SEO Icon" class="bg-[#FFD47E] rounded-full w-12 h-12 mb-4">
+    <h3 class="font-bold mb-2 dark:text-gray-100">Viral Campaign</h3>
+    <p class="text-gray-600 font poppins mb-4 dark:text-gray-300 text-xs text-left">
+      Lorem ipsum dolor sit amet consectetur<br>
+      adipiscing elit. Dolor sit amet consectetur<br>
+      adipiscing elit quisque faucibus.
+    </p>
+    <div class="text-center">
+      <a href="#" class="bg-purple-500 font-semibold text-[#FFD47E] px-4 py-2 rounded hover:bg-amber-600 inline-block">Click Here</a>
+    </div>
+  </div>
+  
+  <div class="bg-white dark:bg-gray-700 border border-purple-400 shadow-md shadow-purple-300 rounded-lg p-6 flex flex-col transition-all duration-300 active:scale-95 cursor-pointer">
+    <img src="icon 2.png" alt="SEO Icon" class="bg-[#FFD47E] rounded-full w-12 h-12 mb-4">
+    <h3 class="font-bold mb-2 dark:text-gray-100">Marketing</h3>
+    <p class="text-gray-600 font poppins mb-4 dark:text-gray-300 text-xs text-left">
+      Lorem ipsum dolor sit amet consectetur<br>
+      adipiscing elit. Dolor sit amet consectetur<br>
+      adipiscing elit quisque faucibus.
+    </p>
+    <div class="text-center">
+      <a href="#" class="bg-purple-500 font-semibold text-[#FFD47E] px-4 py-2 rounded hover:bg-amber-600 inline-block">Click Here</a>
+    </div>
+  </div>
+  
+  <div class="bg-white dark:bg-gray-700 border border-purple-400 shadow-md shadow-purple-300 rounded-lg p-6 flex flex-col transition-all duration-300 active:scale-95 cursor-pointer">
+    <div class="bg-[#FFD47E] rounded-full w-12 h-12 flex items-center justify-center mb-4">
+      <img src="icon 3.png" alt="Others Icon" class="w-7 h-7 object-contain">
+    </div>
+    <h3 class="font-bold mb-2 dark:text-gray-100">Others</h3>
+    <p class="text-gray-600 font poppins mb-4 dark:text-gray-300 text-xs text-left">
+      Lorem ipsum dolor sit amet consectetur<br>
+      adipiscing elit. Dolor sit amet consectetur<br>
+      adipiscing elit quisque faucibus.
+    </p>
+    <div class="text-center">
+      <a href="#" class="bg-purple-500 font-semibold text-[#FFD47E] px-4 py-2 rounded hover:bg-amber-600 inline-block">Click Here</a>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="bg-[#FFD47E] dark:bg-gray-900 py-24 px-12">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    
+    <div class="flex justify-center">
+      <img src="2.png" class="max-w-[500px] w-full" alt="Solutions">
+    </div>
+
+    <div>
+      <h2 class="text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+        Simple <span class="text-purple-600">Solutions!</span>
+      </h2>
+      <p class="text-gray-700 font-semibold mb-8 text-2xl dark:text-gray-300">
+        We understand that no two<br>
+        are alike. That’s why we take the time to truly<br>
+        understand your unique goals, challenges,<br>
+        and vision.
+      </p>
+      
+      <div class="grid grid-cols-2 gap-4 max-w-sm">
+        <a href="#" class="bg-orange-500 text-white py-2.5 rounded-lg font-bold hover:bg-amber-500 transition text-center block">Get Started</a>
+        <a href="#" class="border-2 border-purple-600 text-purple-600 py-2.5 rounded-lg font-bold hover:text-fuchsia-900 hover:border-fuchsia-900 transition text-center block">Read More</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="grid md:grid-cols-2 gap-12 items-center px-12 py-28 bg-gray-50 dark:bg-gray-800">
+  <div>
+    <h2 class="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+      Our <span class="text-purple-600">Agency</span>
+    </h2>
+    
+    <p class="text-gray-700 font-semibold mb-6 dark:text-gray-300 text-lg">
+      We believe in the power of data. Our<br>
+      analytics-driven approach allows<br>
+      us to make informed<br>
+      Let's turn your data into actionable<br>
+      insights adored Solutions for Your<br>
+      Business
+    </p>
+    
+    <a href="#" class="bg-orange-500 text-white px-7 py-2 rounded-lg font-bold hover:bg-amber-500 transition inline-block">Read More</a>
+  </div>
+
+  <div class="flex justify-center">
+    <img src="3.png" class="max-w-[400px] w-full" alt="Our Agency">
+  </div>
+</section>
+
+<section class="px-8 pt-16 pb-32 bg-white dark:bg-gray-900">
+  <h2 class="text-3xl font-bold text-center mb-4 text-gray-900 dark:text-gray-100">
+    What <span class="text-orange-400">Clients</span> Say!
+  </h2>
+  <p class="text-center text-gray-600 mb-20 dark:text-gray-300">
+    See How Our Digital Marketing Agency Helped Clients<br> 
+    Achieve Their Goals
+  </p>
+  
+  <div class="grid md:grid-cols-3 gap-8 items-center">
+    
+    <div class="bg-white dark:bg-gray-700 shadow-md shadow-gray-400 rounded-lg p-6">
+      <h3 class="font-bold text-orange-400">Johnny Suh</h3>
+      <p class="text-sm font-semibold text-gray-500 dark:text-gray-300">Executive CEO</p>
+      <p class="text-gray-600 mt-4 mb-4 dark:text-gray-200">
+      Lorem ipsum dolor sit amet, consectetur <br>
+        adipiscing elit. Maecenas metus uma,<br>
+        vehicula sed purus ut</p>
+
+      <div class="flex gap-1">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 1.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 1.png" alt="Rating" class="w-5 h-5">
+      </div>
+    </div>
+    
+    <div class="bg-white dark:bg-gray-700 shadow-lg shadow-gray-400 rounded-lg p-6 md:scale-105 z-10">
+      <h3 class="font-bold text-orange-400">Nashley Juan</h3>
+      <p class="text-sm font-semibold text-gray-500 dark:text-gray-300">Executive CEO</p>
+      <p class="text-gray-600 mt-4 mb-4 dark:text-gray-200">
+        Lorem ipsum dolor sit amet, consectetur <br>
+        adipiscing elit. Maecenas metus uma,<br>
+        vehicula sed purus ut</p>
+      <div class="flex gap-1">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 1.png" alt="Rating" class="w-5 h-5">
+      </div>
+    </div>
+    
+    <div class="bg-white dark:bg-gray-700 shadow-md shadow-gray-400 rounded-lg p-6">
+      <h3 class="font-bold text-orange-400">Mark Z.</h3>
+      <p class="text-sm font-semibold text-gray-500 dark:text-gray-300">Executive CEO</p>
+      <p class="text-gray-600 mt-4 mb-4 dark:text-gray-200">
+      Lorem ipsum dolor sit amet, consectetur <br>
+        adipiscing elit. Maecenas metus uma,<br>
+        vehicula sed purus ut</p>
+
+      <div class="flex gap-1">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+          <img src="Star 2.png" alt="Rating" class="w-5 h-5">
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<footer class="bg-[#FFD47E] dark:bg-gray-900 pt-20 pb-12">
+  
+  <div class="max-w-5xl mx-auto -mt-32 mb-16 bg-orange-500 py-6 px-12 rounded-2xl shadow-2xl flex flex-col md:flex-row justify-between items-center gap-8">
+    <h2 class="text-white text-2xl md:text-3xl font-bold text-center">Ready To Get Started?</h2>
+    <a href="#" class="border-2 border-white text-white px-8 py-3 font-semibold rounded-lg hover:bg-white hover:text-orange-500 transition duration-300 whitespace-nowrap">Contact Us</a>
+  </div>
+
+  <div class="max-w-5xl mx-auto px-8">
+    <div class="grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center space-x-2 mb-4">
+          <img src="Logo.png" class="w-10 h-10">
+          <span class="text-purple-700 dark:text-purple-300 font-bold text-xl">BzMe</span>
+        </div>
+      </div>
+      
+      <div>
+        <h3 class="font-bold mb-2 text-gray-900 dark:text-gray-100">Company</h3>
+        <ul class="space-y-1 text-gray-600 dark:text-gray-300">
+          <li><a href="#about" class="hover:text-amber-400">About</a></li>
+          <li><a href="#contact" class="hover:text-amber-400">Contact</a></li>
+          <li><a href="#careers" class="hover:text-amber-400">Careers</a></li>
+          <li><a href="#team" class="hover:text-amber-400">Team</a></li>
+        </ul>
+      </div>
+   
+      <div>
+        <h3 class="font-bold mb-2 text-gray-900 dark:text-gray-100">Designs</h3>
+        <ul class="space-y-1 text-gray-600 dark:text-gray-300">
+          <li><a href="#" class="hover:text-amber-400">Find a Designer</a></li>
+          <li><a href="#" class="hover:text-amber-400">Discover Inspiration</a></li>
+          <li><a href="#" class="hover:text-amber-400">Pricing</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h3 class="font-bold mb-2 text-gray-900 dark:text-gray-100">Support</h3>
+        <ul class="space-y-1 text-gray-600 dark:text-gray-300">
+          <li><a href="#" class="hover:text-amber-400">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-amber-400">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="signup" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex hidden items-center justify-center">
+  <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 w-full max-w-md ">
+    <button id="closeForm" class="top-2 right-2 text-gray-500 dark:text-gray-300 font-bold">X</button>
+    <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">Sign Up</h2>
+    <form id="signupForm">
+      <div class="mb-4">
+        <label class="block text-gray-700 dark:text-gray-300 font-bold mb-2">Nama</label>
+        <input type="text" id="name" class="border rounded w-full py-2 px-3">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 dark:text-gray-300 font-bold mb-2">Email</label>
+        <input type="email" id="email" class="border rounded w-full py-2 px-3">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 dark:text-gray-300 font-bold mb-2">Password</label>
+        <input type="password" id="password" class="border rounded w-full py-2 px-3">
+      </div>
+      <button type="submit" class="bg-orange-500 text-white px-4 py-2 rounded-lg font-bold">Daftar</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  document.getElementById("openForm").addEventListener("click", function(event){
+    event.preventDefault();
+    document.getElementById("signup").classList.remove("hidden");
+  });
+  document.getElementById("closeForm").addEventListener("click", function(){
+    document.getElementById("signup").classList.add("hidden");
+  });
+
+  document.getElementById("signupForm").addEventListener("submit", function(event){
+    event.preventDefault();
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+
+
+
+    if (name === "") { 
+      alert("Nama tidak boleh kosong!"); 
+      return; 
+    }
+    if (!email.includes("@")) { 
+      alert("Format email tidak valid!"); 
+      return; 
+    }
+    if (password.length < 8) { 
+      alert("Password minimal 8 karakter!"); 
+      return; 
+    }
+
+    alert("Form berhasil divalidasi!");
+    document.getElementById("signup").classList.add("hidden");
+  });
+
+</script>
+
+<script>
+  const tombolTema = document.getElementById("tombolTema");
+  tombolTema.addEventListener("click", function() {
+    document.documentElement.classList.toggle("dark");
+    tombolTema.textContent = document.documentElement.classList.contains("dark") ? "Light Mode" : "Dark Mode";
+  });
+</script>
+
+</body>
+</html>
